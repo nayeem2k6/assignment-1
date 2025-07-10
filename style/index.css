@@ -36,6 +36,7 @@ nav{
     font-weight:700px;
     width:905px;
     height:152px;
+    line-height: 76px;
     align-items: center;
     gap:37px;
     padding: 0px;
@@ -45,7 +46,7 @@ nav{
 
 }
 .header-btn{
-    width:174px ;
+    width: auto 174px ;
     height:48px ;
     justify-content: center;
     align-items: center;
@@ -53,46 +54,61 @@ nav{
     padding: 12px 36px 12px 36px;
     border-radius: 10px;
     background-color: #4E47FF;
+    margin: 0px auto;
+
 }
 header{
     background-image: url(../style/Assets/Hero-bg.png);
-
-
-}
-.div-btn{
-    align-items: center;
-}
-/* section-style */
-.section-title{
-    font-size: 16px;
-    font-weight: 700px;
-width: 517px;
-height: 49;
-gap: 10px;
-padding: 0px;
-
+    width: 1440px;
+    height: 698px;
 
 }
-.section-pic{
-    display: flex;
-    margin: 141px;
+.div-header{
+    margin: 158px 265px 287px 265px
 }
-.img-cd{
-    width:403px ;
-    height:232px ;
-    border-radius: 48px;
-
+.section-1{
+    font-family: 700px;
+    font-size: 42px;
+text-align: left;
 }
 .section-description{
-    width: 517px;
-    height: 60px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 23px;
-    padding: 0px;
-    margin: 23px 0px;
-    font-size: 24px;
-    font-weight: 400px;
-    line-height: 30px;
-    text-align: left;
+font-size: 24px;
+font-weight:400px ;
+text-align: left;
 }
+.section-button{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+padding: 12px 36px 12px 36px;
+}
+.secttion-7{
+    width: 517px;
+    height: 203px;
+
+}
+.section-div{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+}
+.img-link{
+width:403px ;
+height: 328px;
+border-radius: 10px;
+gap: 10px;
+margin: 0px 10px;
+}
+
+
+
+
